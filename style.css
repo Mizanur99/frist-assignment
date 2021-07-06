@@ -1,0 +1,112 @@
+body{
+    
+    font-family: 'Bree Serif',
+    serif;
+    word-spacing: 2px;
+}
+
+h1{
+    font-size: 50px;
+    color: SlateGrey;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+.high-light{
+    color: orangered;
+}
+.flexible-part{
+    display: flex;
+    
+}
+.top-part{
+    margin-left: 100px;
+}
+.half-part{
+    width: 40%;
+    margin-left: 30px;
+    
+
+}
+.half-part p{
+    text-align: justify;
+}
+.half-part .about-high{
+    font-weight: bold;
+    color: grey;
+}
+.half-part img{
+    width: 100%;
+}
+button{
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: orangered;
+    margin-top: 100px;
+    padding: 10px;
+}
+button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.about-part{
+    margin-top: 150px ;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+.text-part{
+    margin: 50px 40px;
+}
+.text-part h1{
+    text-align: center;
+    color: indianred;
+}
+.text-part p{
+    text-align: center;
+    color: grey;
+}
+.recipie-title{
+    width: 25%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 10px;
+    box-shadow:10px  10px 40px grey ;
+    
+}
+.recipie-title img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.recipie-title h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+}
+footer h2{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+footer p{
+    text-align: center;
+}
+footer span{
+    color: orangered;
+}
